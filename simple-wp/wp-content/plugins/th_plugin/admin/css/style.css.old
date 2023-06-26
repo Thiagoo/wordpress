@@ -1,0 +1,48 @@
+.th_header {
+    font-size: 3.5em;
+    font-family: 'Montserrat', 'sans-serif';
+    padding: 1em;
+}
+
+.th_nav {
+    display: flex;
+}
+
+.th_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 10%;
+}
+
+//horizontal navbar
+/* .th_nav li {
+    float: left;
+} */
+
+.th_nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.th_nav li a:hover {
+    background-color: #111;
+}
+
+.th_image {
+    text-align: center;
+}
+
+.th_image img {
+    width: 50%;
+    height: 50%;
+}
+
+.th_content {
+    text-align: center;
+}
